@@ -6,15 +6,6 @@ library(transformr)
 library(scales)
 library(magrittr)
 
-scientific_10 <- function(x) {
-  index_zero <- which(x == 0) 
-  label <- scientific_format()(x)
-  label <- str_replace(label, "e", " %*% 10^")
-  label <- str_replace(label, "\\^\\+", "\\^")
-  label[index_zero] <- "0"
-  parse(text=label)
-}
-
 Covid_19 <-  read_csv("https://covid.ourworldindata.org/data/owid-covid-data.csv")
 
 Covid_19_top <-

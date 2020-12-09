@@ -3,7 +3,7 @@
     "path": "~/Documents/research/covid_R/Covid-19.R",
     "project_path": "Covid-19.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "2498407397",
     "contents": "",
     "dirty": false,
     "created": 1601455030438.0,
@@ -11,16 +11,16 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "48,9",
+        "cursorPosition": "6,17",
         "scrollLine": "0",
         "Source": "Source"
     },
     "folds": "",
-    "lastKnownWriteTime": 1607481978,
+    "lastKnownWriteTime": 1607482016,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1607481978033,
+    "last_content_update": 1607482016207,
     "read_only": false,
     "read_only_alternatives": []
 }
